@@ -1,0 +1,176 @@
+li button.deleteBtn svg {
+	width: 25px;
+	fill: #C35353;
+}
+
+li button.editBtn svg {
+	fill: #5C8D5C;
+	width: 25px;
+}
+
+li button {
+	border: none;
+	background-color: transparent;
+	box-shadow: none;
+}
+
+li button:hover {
+	background-color: #ddd;
+}
+
+p {
+	font-size: 25px;
+	margin: 0;
+	height: 35px;
+	border-radius: 8px;
+	line-height: 33px;
+	transition: background-color 0.20s;
+	color: #ddd;
+	text-transform: capitalize;
+}
+
+.greenish {
+	background-color: #5C8D5C;
+	box-shadow: 1px 1px 3px #2F4858;
+}
+
+.redish {
+	background-color: #C35353;
+	box-shadow: 1px 1px 3px #2F4858;
+}
+
+div.ui {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Garamond', sans-serif;
+}
+
+div.ui h1 {
+	font-size: 5rem;
+	margin: 0;
+	text-transform: uppercase;
+	color: #DFA05B;
+	text-shadow: 1px 1px 3px #2F4858;
+}
+
+ul {
+	text-align: left;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5rem;
+}
+
+form input {
+	width: 27rem;
+	height: 2rem;
+	font-size: 20px;
+	background-color: #fff;
+	border-color: #DFA05B;
+	border-radius: 8px;
+	outline: none;
+	padding-left: 10px;
+	box-shadow: 2px 2px 3px #999;
+	transition: all 0.20s;
+}
+
+::placeholder {
+	color: #ccc;
+}
+
+form input:focus {
+	background-color: #DFA05B;
+	border: none;
+	color: #fff;
+}
+
+button {
+	cursor: pointer;
+	margin-left: 5px;
+	text-transform: uppercase;
+	background-color: transparent;
+	border-radius: 8px;
+	box-shadow: 2px 2px 3px #999;
+	transition: all 0.20s;
+}
+
+button.same {
+	height: 38px;
+	width: 8rem;
+	font-size: 15px;
+	color: #DFA05B;
+	border-color: #DFA05B;
+}
+
+button:hover {
+	background-color: #DFA05B;
+	color: #fff;
+	border: none;
+}
+
+ul.UI-list {
+	padding: 0;
+	list-style: none;
+}
+
+.scroll {
+	height: 18rem;
+	overflow-y: scroll;
+}
+
+ul.UI-list li {
+	margin-left: 7%;
+	font-size: 25px;
+	margin-top: 15px;
+	transition: all 0.30s;
+	padding: 10px 5px;
+	display: flex;
+	border-radius: 8px;
+	justify-content: space-between;
+}
+
+ul.UI-list li:hover {
+	margin-left: 8%;
+	background-color: #eee;
+}
+
+div.listContainer {
+	display: none;
+}
+
+div.show-container {
+	display: block;
+}
+
+li div:first-child {
+	display: flex;
+}
+
+li h4 {
+	margin: 0;
+	padding-left: 5px;
+}
+
+@media screen and (max-width: 425px) {
+	div.ui {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	div.ui h1 {
+		font-size: 4rem;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	div.ui h1 {
+		font-size: 2.5rem;
+	}
+}
